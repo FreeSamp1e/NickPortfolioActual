@@ -1,0 +1,263 @@
+/*Intro Animation*/
+
+
+
+/* Title Card */
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    background-color: #f6ddbb;
+    border: none;
+    padding: 0px;
+}
+
+/* build mode
+body:hover {
+    border: solid 5px red;
+}
+*/
+
+html {
+    background-color: rgb(253, 235, 198);
+    scroll-behavior: smooth;
+}
+
+.titleCard {
+    color: white;
+}
+
+
+.titleCardName {
+    margin: auto;
+    color: #412a41;
+    font-size: 250px;
+}
+
+.pronouns {
+    font-size: 60px;
+    margin-left: -60px;
+}
+
+/* Navbar*/
+.navBar {
+
+    position: fixed;
+    border-style: ridge;
+    border-color: #503450;
+    color: #503450;
+    width: 48px;
+    left:12.5px;
+    top: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   #top {
+    margin-top: 0%;
+    padding-bottom: 100%;
+   } 
+
+/* About Me*/
+.aboutMe {
+    margin-top: -1200px;
+    text-align: center;
+    color: #503450;
+}
+.aboutMeTitle {
+    text-align: center;
+    font-size: 110px;
+}
+
+.aboutMeText {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 0px;
+    max-width: 500px;
+    margin-left: 90px;
+    margin-right: auto;
+    float: left;
+}
+
+.aboutMeImage {
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 90px
+}
+
+
+/*Skills and Experience*/ 
+
+.skillsAndExperienceContent {
+    display: grid;
+}
+
+.SETitle {
+    margin-top: 650px;
+    text-align: center;
+    font-size: 110px;
+    color: #503450;
+}
+
+.resume {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+}
+
+.SEText {
+    margin-top: -90px;
+    color: #503450;
+    text-align: center;
+}
+
+
+.resumeHover {
+    width: 490px;
+    max-width: 490px;
+    height: 400px;
+    max-height: 400px;
+    border: solid 5px #503450;
+    text-align: center;
+    margin-left: 130px;
+    background-image: url("resume.png");
+    background-size: 95%;
+    font-size: 0px;
+}
+
+.resumeHover:hover {
+    background-image: url("resumeOpacity.png");
+}
+
+.languageImages {
+    width: 180px;
+    border: solid 5px #503450;
+}
+
+.codingLanguages {
+    margin-right: 100px;
+    position: absolute;
+    right: 180px;
+}
+
+/*Projects*/ 
+
+.projectsTitle {
+    margin-top: 240px;
+    text-align: center;
+    font-size: 110px;
+    color: #503450;
+}
+
+.projectsContent {
+    text-align: center;
+}
+
+.projectExample {
+    width: 330px;
+    height: 275px;
+    padding: 15px; 
+}
+
+.projectDescriptions {
+    text-align: center;
+    font-size: 20px;
+    max-width: 700px;
+    color: #503450;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.projectDescriptionsDiv {
+    text-align: center;
+}
+
+#projectTwo {
+    opacity: 0.1;
+}
+
+#projectThree {
+    opacity: 0.1;
+}
+
+.projectSpanTwo {
+    display: none;
+}
+
+.projectSpanThree {
+    display: none;
+}
+
+/*Future Plans*/
+.futurePlansTitle {
+    margin-top: 240px;
+    text-align: center;
+    font-size: 110px;
+    color: #503450;
+}
+
+.futurePlansContent {
+    color: #503450;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 50px;
+    opacity: 0.8
+}
+.personal {
+    text-align: center;
+    width: 205px;
+    font-size: 20px;
+}
+.college {
+    text-align: center;
+    width: 205px;
+    font-size: 20px;
+}
+.career {
+    text-align: center;
+    width: 205px;
+    font-size: 20px;
+}
+
+/*Contact Me*/
+.contactMeTitle {
+    margin-top: 240px;
+    text-align: center;
+    font-size: 110px;
+    color: #503450;
+}
+
+.contactMeInputs {
+    border: solid 3px #503450;
+    width: 350px;
+    margin:auto;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/*Sources*/
+.sourcesTitle {
+    margin-top: 240px;
+    text-align: center;
+    font-size: 110px;
+    color: #503450;
+}
+
+.sourceImage {
+    width: 600px;
+    margin-left: 270px;
+}

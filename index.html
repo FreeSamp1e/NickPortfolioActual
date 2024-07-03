@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nick Sample - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="navBar">
+      <i class="bx bxs-like bx-xs"></i>
+      <i class="bx bxs-like bx-sm"></i>
+      <i class="bx bxs-like bx-md"></i>
+      <i class="bx bxs-like bx-lg"></i>
+      <a href = "#top"><box-icon size="lg" type="solid" name="home-alt-2"></box-icon> <br /></a>
+      
+      <a href = "#skills"> <box-icon size="lg" name="code-block"></box-icon> <br /> </a>
+      <a href = "#project"><box-icon size="lg" type="solid" name="archive"></box-icon> <br /></a>
+      <a href = "#future"><box-icon size="lg" name="task"></box-icon> <br /></a>
+      <a href = "#source"><box-icon size="lg" type="solid" name="phone"></box-icon></a>
+    </div>
+
+    <div class="notNavBar">
+      <div class="titleCard" id = "top">
+        <p class="titleCardName">
+          Nikolas T. Sample <span class="pronouns">(He/Him)</span>
+        </p>
+      </div>
+
+      <div class="aboutMe">
+        <p class="aboutMeTitle"><br /><br />About Me</p>
+
+        <p class="aboutMeText">
+          Hello! My name is Nick Sample. I am currently a rising Senior at
+          Brebeuf Jesuit Preparatory School. I was born in Anderson, Indiana,
+          and have lived in Indianapolis since 2017. My sister, Sophia Sample,
+          20, is a rising Senior at Purdue University, and my mother emigrated
+          from Japan. Throughout my life, I have been captivated by STEM,
+          technological engineering, and coding. Specifically, the limitless,
+          creative opportunities that these fields allow one to pursue is what
+          interests me so much in engineering and computer science. 
+        </p>
+        <img
+          class="aboutMeImage"
+          src="headshot.JPG"
+        />
+      </div>
+
+      <div class="skillsAndExperience" id = "skills">
+        <p class="SETitle">Skills and Experience</p>
+
+        <div class="skillsAndExperienceContent">
+          <p class="resumeHover">
+            <br /><br /><br /><br /><br /><br /><a
+              href="https://docs.google.com/document/d/e/2PACX-1vThYTMgeJgS_cWXezmebug297BGoIAeFLinRFKw9qc0NKU_D8Oun-gTgOctuHKHyoxgpUU63t5C5EB-/pub"
+              >Click Here for Resume</a
+            >
+          </p>
+
+          <div class="codingLanguages">
+            <img class="languageImages" src="css.png" />
+            <img class="languageImages" src="html.png" /> <br />
+            <img class="languageImages" src="java.png" />
+            <img class="languageImages" src="js.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="projects" id = "project">
+        <p class="projectsTitle">Projects</p>
+        <div class="projectsContent">
+          <img class="projectExample" id = "projectOne" src="unit2Project.png" />
+          <img class="projectExample" id = "projectTwo" src="unit3Project.png" />
+          <img class="projectExample" id = "projectThree" src="unit4Project.png" />
+        </div>
+        <div class = projectDescriptionsDiv>
+        <p class = "projectDescriptions">
+            <span class = "projectSpanOne"> Organization: Nextech <br> Description: Asked to build an informational website based on a global issue using newly learned HTML and CSS skills. I chose the wealth gap in America. These websites were then presented in small groups in a maximum of 2 minutes. </span>
+            <span class = "projectSpanTwo"> Orgnaization: Nextech <br> Description: Tasked to build a choose-your-own-adventure style game using HTML, CSS, and the newly-learned JavaScript. I built a Five Nights at Freddy’s fan game that had 3 endings. </span>
+            <span class = "projectSpanThree"> Orgnaization: Nextech <br> Description: Ever wondered what kind of spooky character you are? Take this buzzfeed-style quiz to find out! Built using HTML, CSS, and JavaScript. There are 6 different possible outcomes. </span>
+        </p>
+        </div>
+      </div>
+
+      <div class="futurePlans" id = "future">
+        <p class="futurePlansTitle">Future Plans</p>
+        <div class = futurePlansContent> 
+            <div class = "personal"> <h2> Personal </h2> <p class = "personalParagraph">I am someone who loves traveling. I have been to Italy, Japan, Hawaii, and many other places, and I hope I can continue traveling in my future. Another passion of mine is hobbies. I crochet, work-out, do rowing, and collect manga because they are simply fun. </p></div>
+            <div class = "college"> <h2> College </h2> <p class = "collegeParagraph">I hope I can get into a strong engineering school for electrical or mechanical engineering with a minor in mathematics or computer science. I am a 21st century scholar, so schools in Indiana such as Rose-Hulman and Purdue look especially promising to me.</p></div>
+            <div class = "career"> <h2> Career </h2> <p class = "CareerParagraph">The Catapult internship at Nextech has shown me how many meanings the word "tech career" has, and the program has really made me rethink my career goals. I hope to be an engineer, but that has many career paths. Therefore, I am open to all the possibilities, as long as they are STEM related.</p></div>
+      </div>
+
+      <div class="contactMe">
+        <p class="contactMeTitle">Contact Me</p>
+        <div class = "contactMeInputs"> 
+          <p class = "contactMePrompt">
+            Enter your name:
+          </p>
+          <input placeholder = "My name is..." class = "contactName">
+          <p class = "contactMePrompt">
+            Enter your email
+          </p>
+          <input placeholder = "My email is..." class = "contactEmail">
+          <p class = "contactMePrompt">
+            Enter a message:
+          </p>
+          <input placeholder = "Message" class = "contactMessage"> <br><br><br>
+          <button class = "submitButton"> Submit</button>
+        </div>
+      </div>
+
+      <div class="sources" id = "source">
+        <p class="sourcesTitle">Sources</p>
+        <img src = "sources.png" class = "sourceImage">
+      </div>
+    </div>
+  </body>
+</html>
